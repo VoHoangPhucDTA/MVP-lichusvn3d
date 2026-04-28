@@ -8,6 +8,7 @@ const cesiumSource = 'node_modules/cesium/Build/Cesium'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/",
   plugins: [
     react(),
     tailwindcss(),
